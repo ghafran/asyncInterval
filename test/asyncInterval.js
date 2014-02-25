@@ -6,7 +6,7 @@ var expect = require('chai').expect,
 
 describe('asyncInterval cases', function() {
 
-    it('returns function', function(done) {
+    it('returns object', function(done) {
         
         var interval = asyncInterval(function(next){}, 5);
         expect(interval).to.be.a('object');
@@ -80,8 +80,3 @@ describe('asyncInterval cases', function() {
         });
     });
 });
-
-
-
-
-
