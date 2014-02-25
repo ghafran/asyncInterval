@@ -9,7 +9,7 @@ There is also a timeout option to continue the interval incase an async task is 
 
 ## Installation
 
-    $ npm install hold
+    $ npm install asyncinterval
 
 ## Usage
 
