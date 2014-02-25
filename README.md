@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/socialradar/asyncinterval.png)](http://travis-ci.org/socialradar/asyncinterval)
+[![Build Status](https://api.travis-ci.org/socialradar/asyncInterval.png)](http://travis-ci.org/socialradar/asyncinterval)
 
 asyncInterval
 =============
