@@ -28,8 +28,8 @@ var interval = asyncInterval(function(done){
 }, 5, 10);
 
 // optional timeout
-interval.on('timeout', function(){
-    // log timeout here...
+interval.onTimeout(function(){
+    // log timeout here
 });
 ```
 

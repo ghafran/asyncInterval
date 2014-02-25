@@ -68,17 +68,17 @@ describe('asyncInterval cases', function() {
         }, 10);
     });
     
-    // it('timeout', function(done) {
+    it('timeout', function(done) {
         
-    //     var interval = asyncInterval(function(next){
+        var interval = asyncInterval(function(next){
             
-    //     }, 5, 10);
+        }, 5, 10);
         
-    //     interval.on('timeout', function(){
-    //         interval.clear();
-    //         done();
-    //     });
-    // });
+        interval.onTimeout(function(){
+            interval.clear();
+            done();
+        });
+    });
 });
 
 
