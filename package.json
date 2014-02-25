@@ -1,14 +1,14 @@
 {
-  "name": "hold",
-  "description": "Ensures async function is only called once and caches results for other calls.",
-  "version": "0.0.4",
+  "name": "asyncInterval",
+  "description": "Async aware setInterval. Run functions at an interval without overlapping previous calls.",
+  "version": "0.0.1",
   "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
-  "homepage": "https://github.com/socialradar/hold",
+  "homepage": "https://github.com/socialradar/asyncInterval",
   "repository": {
     "type": "git",
-    "url": "https://github.com/socialradar/hold"
+    "url": "https://github.com/socialradar/asyncInterval"
   },
-  "main": "lib/hold.js",
+  "main": "lib/asyncInterval.js",
   "scripts": {
     "test": "grunt test"
   },
@@ -31,7 +31,7 @@
     "async"
   ],
   "bugs": {
-    "url": "https://github.com/socialradar/hold/issues"
+    "url": "https://github.com/socialradar/asyncInterval/issues"
   },
   "directories": {
     "test": "test"
