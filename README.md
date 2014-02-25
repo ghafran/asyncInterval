@@ -16,6 +16,8 @@ There is also a timeout option to continue the interval incase an async task is 
 code example:
 
 ```js
+var asyncInterval = require('asyncinterval');
+
 var interval = asyncInterval(function(done){
     
     // don't worry, we only enter here one call at a time.
