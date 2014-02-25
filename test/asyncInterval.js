@@ -72,7 +72,6 @@ describe('asyncInterval cases', function() {
         
     //     var interval = asyncInterval(function(next){
             
-    //         done();
     //     }, 5, 10);
         
     //     interval.on('timeout', function(){
