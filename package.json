@@ -1,5 +1,5 @@
 {
-  "name": "asyncInterval",
+  "name": "asyncinterval",
   "description": "Async aware setInterval. Run functions at an interval without overlapping previous calls.",
   "version": "0.0.1",
   "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
