@@ -1,4 +1,5 @@
 [![Build Status](https://api.travis-ci.org/ghafran/asyncInterval.png)](http://travis-ci.org/ghafran/asyncinterval)
+[![NSP Status](https://nodesecurity.io/orgs/ghafran/projects/4288cb5f-f55d-4175-82d2-a740c99c977c/badge)](https://nodesecurity.io/orgs/ghafran/projects/4288cb5f-f55d-4175-82d2-a740c99c977c)
 
 asyncInterval
 =============
@@ -19,7 +20,7 @@ code example:
 var asyncInterval = require('asyncinterval');
 
 var interval = asyncInterval(function(done){
-    
+
     // don't worry, we only enter here one call at a time.
     doSomething(function(err){
 
