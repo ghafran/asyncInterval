@@ -18,6 +18,7 @@ code example:
 
 ```js
 var asyncInterval = require('asyncinterval');
+// exported constructor is available as asyncInterval.AsyncInterval
 
 var interval = asyncInterval(function(done){
 
